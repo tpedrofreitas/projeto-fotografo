@@ -1,0 +1,102 @@
+         *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #f4f4f4;
+                color:#333333;
+            }
+
+            #barra-cabecalho{
+                background-color: #0066cc;
+                color:#ffffff;
+                text-align: center;
+                padding: 20px 30px 20px 30px;
+            }
+
+            #navbar-menu{
+                background-color: #004999;
+
+            }
+            #navbar-menu a{
+                color:#ffffff;
+                text-decoration: none;
+                font-weight: bold;
+                
+            }
+
+            #navbar-menu ul{
+                display: flex;
+                list-style: none;
+                height: 40px;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #rodape{
+                text-align: center;               
+                background-color:  #333333;
+                color:#ffffff;
+                padding: 20px 30px 20px 30px;
+            }
+
+            main{
+                background-color: #ffffff;
+                max-width: 900px;
+                margin: 30px auto;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 0 6px rgba(0,0,0,0.4);
+            }
+
+            main h2{
+                color:#0066cc;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            p{
+                line-height: 24px;
+                margin-bottom: 16px;
+            }
+
+            .beneficio{
+                background-color: #eaf4ff;
+                padding: 10px;
+                margin-bottom: 15px;
+                border-radius: 5px;
+                border-left: 5px solid #0066cc;
+            }
+
+            #depoimento{
+                background-color: #fff8e1;
+                padding: 10px;
+                border-radius: 5px;
+                text-align: center;
+                border: 2px dashed #f1c40f;
+            }
+
+            #depoimento h2{
+                color:#d35400;
+            }
+
+            .btn{
+                background-color: #0066cc;
+                padding: 15px 30px ;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 5px;
+                display: block;
+                margin: 20px auto;               
+                width: 300px;
+                text-align: center;
+            }
+
+            #navbar-menu ul li{
+                margin-left: 20px;
+                margin-right: 20px;
+
+            }
