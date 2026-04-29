@@ -125,6 +125,41 @@
                 box-shadow: 0 10px 25px rgba(0,0,0,0.4);
             }
 
+            .tabela{
+                width: 100%;
+                border-collapse: collapse;
+                border-radius: 10px;
+                box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+                overflow: hidden;
+            }
+
+            .tabela thead{
+                background-color: #004de6;
+                color: #fff;
+            }
+            .tabela td,th{
+                padding: 15px;
+            }
+
+            .tabela td{
+                color: #444;
+                font-size: 14px;
+            }
+
+            .tabela tr:nth-child(even){
+                background-color: #f2f4f8;
+            }
+
+            .tabela tr:hover{
+                background-color: #d6e1f9;
+            }
+
+            .tabela tfoot td{
+                background: #222222;
+                color: #ffffff;
+                font-weight: bold;
+            }
+            
             @media(max-width: 768px){
                 .container{
                     flex-direction: column;

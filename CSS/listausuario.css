@@ -1,0 +1,25 @@
+.tabela{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+     overflow: hidden;
+ 
+}
+.tabela thead{
+    background-color: #2c08cc;
+    color: #fff;
+}
+.tabela td,td{
+    padding: 10px;
+
+}
+.tabela td{
+    color: #2c08cc;
+    font-size: 15px;
+}
+.tabela tr:nth-child(even){
+    background-color: #eaecf0;    
+}
+.tabela tr:hover{
+    background-color: #322568;
+}
